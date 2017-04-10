@@ -14,7 +14,7 @@ Built in Windows 8 using netbeans. To use in Linux based system:
 For rest of the Questions follow the README File present along with the Questions.
 
 Documentation is in dist folder of each question and Class Diagram is also present in each question separately.  
-
+PS: Ignore the Common dist folder. Each question has seperate dist folder.
 
 SIDDHARTH ACHARYA  
 RIT2015040  
