@@ -11,7 +11,7 @@ import K_Most.K_MOST;
 import java.util.List;
 
 public class PPL_Question_2 {
-   public static void main(String[] args) {
+   public static void main(String[] args)throws Exception {
        
         List<GIRL> girls ;
         List<BOYS> boys;
