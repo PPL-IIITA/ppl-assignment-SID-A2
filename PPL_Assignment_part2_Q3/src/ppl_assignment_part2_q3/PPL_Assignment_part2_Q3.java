@@ -12,7 +12,7 @@ import java.util.List;
 
 public class PPL_Assignment_part2_Q3 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         List<GIRL> girls ;
         List<BOYS> boys;
         List<GIFTS> gifts;
