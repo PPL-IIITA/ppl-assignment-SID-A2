@@ -8,7 +8,7 @@ import BOYS.BOYS;
 import GIRL.GIRL;
 import GIFTS.GIFTS;
 public class COUPLING {
-    public static List<BOYS> readBoyTxt(String fileName)
+    public static List<BOYS> readBoyTxt(String fileName)throws Exception
     { 
         List<BOYS> boys = new ArrayList<>();
         try (BufferedReader my_Br = Files.newBufferedReader(Paths.get(fileName), StandardCharsets.US_ASCII))
@@ -30,7 +30,7 @@ public class COUPLING {
         } 
         return boys;
     }
-    public static List<GIRL> readGirlTxt(String fileName)
+    public static List<GIRL> readGirlTxt(String fileName)throws Exception
     { 
         List<GIRL> girls = new ArrayList<>();
         try (BufferedReader my_Br = Files.newBufferedReader(Paths.get(fileName), StandardCharsets.US_ASCII))
@@ -52,7 +52,7 @@ public class COUPLING {
         } 
         return girls;
     }
-    public static List<GIFTS> readGiftTxt(String fileName)
+    public static List<GIFTS> readGiftTxt(String fileName)throws Exception
     { 
         List<GIFTS> gifts = new ArrayList<>();
         try (BufferedReader my_Br = Files.newBufferedReader(Paths.get(fileName), StandardCharsets.US_ASCII))
