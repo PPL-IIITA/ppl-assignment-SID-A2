@@ -7,7 +7,7 @@ import LoggingUtility.GenerateCsvData;
 import java.util.List;
 public class MAKE_COUPLE {
     
-    public static void COUPLE(List<BOYS> boys , List<GIRL> girls){
+    public static void COUPLE(List<BOYS> boys , List<GIRL> girls)throws Exception{
         for(GIRL girl : girls){
             for(BOYS boy : boys){
                 if(boy.Status == "single" && girl.Status == "single" && boy.budget >= girl.maintenanceBudget && boy.minAttractionRqd <= girl.attractiveness){
