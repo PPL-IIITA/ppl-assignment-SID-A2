@@ -11,7 +11,7 @@ import java.util.List;
 
 
 public class K_MOST {
-    public static void K_most(List<BOYS> boys, List<GIRL> girls){
+    public static void K_most(List<BOYS> boys, List<GIRL> girls)throws Exception{
         
         List<CC> couple = new ArrayList<>();
         CC c;
