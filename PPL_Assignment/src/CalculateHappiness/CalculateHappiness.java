@@ -8,7 +8,7 @@ import static java.lang.Math.log;
 import java.util.List;
 
 
-public class CalculateHappiness {
+public class CalculateHappiness throws Exception {
     public static void CalH(List<BOYS> boys , List<GIRL> girls)throws Exception{
         double ratio ;
         for(GIRL g : girls){
