@@ -10,7 +10,7 @@ import java.util.Comparator;
 
 
 public class GIVE_GF_GIFTS {
-       public static void GIVE_GF_GIFTS(List<GIFTS> gifts , List<BOYS> boys){
+       public static void GIVE_GF_GIFTS(List<GIFTS> gifts , List<BOYS> boys)throws Exception{
            Collections.sort(gifts,new GiftComp());
            int c = 0;
            for(BOYS boy : boys){
