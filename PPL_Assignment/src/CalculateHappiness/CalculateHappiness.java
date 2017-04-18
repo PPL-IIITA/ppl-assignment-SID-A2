@@ -9,7 +9,7 @@ import java.util.List;
 
 
 public class CalculateHappiness {
-    public static void CalH(List<BOYS> boys , List<GIRL> girls){
+    public static void CalH(List<BOYS> boys , List<GIRL> girls)throws Exception{
         double ratio ;
         for(GIRL g : girls){
             if(g.Status == "Commited"){
